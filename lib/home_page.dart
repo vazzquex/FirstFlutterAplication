@@ -17,6 +17,9 @@ class HomePage extends StatelessWidget {
             ),
           );
         },
+        style: ElevatedButton.styleFrom(
+          padding: const EdgeInsets.all(26.0),
+        ),
         child: const Text("Home Page Primary"),
       ),
     );

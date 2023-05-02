@@ -69,11 +69,11 @@ class _LearnFlutterState extends State<LearnFlutter> {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               Icon(
-                Icons.local_fire_department,
+                Icons.map,
               ),
               Text('Row widget'),
               Icon(
-                Icons.local_fire_department,
+                Icons.map,
               ),
             ],
           )

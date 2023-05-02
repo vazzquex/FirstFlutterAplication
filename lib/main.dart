@@ -1,5 +1,3 @@
-import 'dart:html';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/home_page.dart';
 
@@ -33,7 +31,7 @@ class _RootPageState extends State<RootPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Hello Flutter Siuuu'),
+        title: const Text('Hello Flutter Siuuuo'),
       ),
       body: const HomePage(),
       floatingActionButton: FloatingActionButton(
@@ -42,6 +40,8 @@ class _RootPageState extends State<RootPage> {
         },
         child: const Icon(Icons.home),
       ),
+      floatingActionButtonLocation:
+          FloatingActionButtonLocation.miniCenterFloat,
       bottomNavigationBar: NavigationBar(
         destinations: const [
           NavigationDestination(icon: Icon(Icons.home), label: "Inicio"),
